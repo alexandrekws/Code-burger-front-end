@@ -56,6 +56,7 @@ function Orders() {
             )
             setfilteredOrders(newFilteredOrders)
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [orders])
 
     function handleStatus(status) {
