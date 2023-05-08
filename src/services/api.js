@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiCodeBurger = axios.create({
-    baseURL: 'http://localhost:3001'
+    baseURL: 'https://code-burger-back-end.vercel.app'
 })
 
 apiCodeBurger.interceptors.request.use(async config => {
